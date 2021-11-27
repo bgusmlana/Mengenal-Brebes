@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bagusm.mengenalbrebes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_brebes"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Profil"
+            android:label="Profil Kabupaten Brebes"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+        <activity
+            android:name=".Sejarah"
+            android:label="Sejarah Kabupaten Brebes"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+        <activity android:name=".Senibudaya"
+            android:label="Seni Budaya Brebes"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+
+        <activity android:name=".Wisata"
+            android:label="Wisata di Brebes"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+
+        <activity android:name=".Kuliner"
+            android:label="Kuliner Brebes"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+
+        <activity
+            android:name=".Tentang"
+            android:label="Tentang Aplikasi"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main"
+            android:label="Mengenal Brebes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wilayah2"
+            android:label="Wilayah Brebes"
+            android:parentActivityName=".Main">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main" />
+        </activity>
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+        <activity android:name=".Wkaligua"
+            android:label="Agro Wisata Kaligua"
+            android:parentActivityName=".Wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Wisata" />
+        </activity>
+
+        <activity android:name=".Wsirampog"
+            android:label="Wisata Bukit Sirampog"
+            android:parentActivityName=".Wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Wisata" />
+        </activity>
+
+        <activity android:name=".Wpanenjoan"
+            android:label="Wisata Bukit Panenjoan"
+            android:parentActivityName=".Wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Wisata" />
+        </activity>
+
+        <activity android:name=".Wranto"
+            android:label="Wisata Ranto Canyon"
+            android:parentActivityName=".Wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Wisata" />
+        </activity>
+
+        <activity android:name=".Wmalahayu"
+            android:label="Wisata Waduk Malahayu"
+            android:parentActivityName=".Wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Wisata" />
+        </activity>
+
+        <activity android:name=".Wpenjalin"
+            android:label="Wisata Waduk Penjalin"
+            android:parentActivityName=".Wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Wisata" />
+
+        </activity>
+        <activity android:name=".Wrandusanga"
+            android:label="Wisata Pantai Randusanga"
+            android:parentActivityName=".Wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Wisata" />
+        </activity>
+
+        <activity android:name=".Wmangrove"
+            android:label="Wisata Hutan Mangrove"
+            android:parentActivityName=".Wisata">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Wisata" />
+            </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

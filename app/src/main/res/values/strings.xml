@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Mengenal Brebes</string>
+    <string name="j_profil">Profil Kab. Brebes</string>
+
+    <string name="profil">Profil</string>
+    <string name="wilayah">Wilayah</string>
+    <string name="sejarah">Sejarah</string>
+    <string name="seni">Seni Budaya</string>
+    <string name="wisata">Wisata</string>
+    <string name="kuliner">Kuliner</string>
+
+    <string name="seni1">Sintren</string>
+    <string name="seni2">Burok Brebes</string>
+    <string name="seni3">Kuntulan</string>
+
+    <string name="profil_judul">Kabupaten Brebes</string>
+    <string name="wilayah_judul">Wilayah Kabupaten Brebes</string>
+    <string name="sejarah_judul">Sejarah Kabupaten Brebes</string>
+    <string name="title_activity_wilayah">Wilayah</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Mengenal Brebes</string>
+    <string name="nav_header_subtitle">www.bagusm.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_wilayah2">Wilayah2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="wisata1">Agro Wisata Kaligua</string>
+    <string name="wisata2">Bukit Baper Sirampog</string>
+    <string name="wisata3">Bukit Panenjoan</string>
+    <string name="wisata4">Ranto Canyon</string>
+    <string name="wisata5">Waduk Malahayu</string>
+    <string name="wisata6">Waduk Penjalin</string>
+    <string name="wisata7">Pantai Randusanga Indah</string>
+    <string name="wisata8">Wisata Hutan Mangrove</string>
+
+    <string name="kuliner1">Telur Asin Khas Brebes</string>
+    <string name="kuliner2">Sate Blengong</string>
+    <string name="kuliner3">Sega Lengko</string>
+    <string name="kuliner4">Bandeng Lumpur</string>
+    <string name="kuliner5">Rujak Teplak</string>
+    <string name="kuliner6">Kluban</string>
+    <string name="kuliner7">Orog-orog</string>
+    <string name="title_activity_maps_kaligua">Map</string>
+
+</resources>
